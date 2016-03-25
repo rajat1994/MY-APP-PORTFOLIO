@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#E3F2FD"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.arora.portfolioapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps !"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:text="SPOTIFY STREAMER"
+        android:id="@+id/button"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="35dp"
+        android:background="#F08C35"
+        android:onClick="sendMessage1"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:text="SCORES APP"
+        android:id="@+id/button2"
+        android:textSize="15dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:background="#F08C35"
+        android:onClick="sendMessage2"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:text="LIBRARY APP"
+        android:id="@+id/button3"
+        android:textSize="15dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#F08C35"
+        android:onClick="sendMessage3"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/button4"
+        android:textSize="15dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#F08C35"
+        android:onClick="sendMessage4"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:text="XYZ READER"
+        android:id="@+id/button5"
+        android:textSize="15dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#F08C35"
+        android:onClick="sendMessage5"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:text="CAPSTONE: MY OWN APP"
+        android:id="@+id/button6"
+        android:textSize="15dp"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#C2185B"
+        android:onClick="sendMessage6"/>
+
+</RelativeLayout>
